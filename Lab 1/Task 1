@@ -1,0 +1,14 @@
+"""
+------------------------------------------------------------------------
+A simple user friendly program to greet the user!
+------------------------------------------------------------------------
+Author: Rohan Tewari 
+updated = "2021-02-14"
+------------------------------------------------------------------------
+"""
+
+#Ask the user for their name
+name = input("Please enter your name: ")
+
+#print a small greeting back to the user
+print("Pleased to meet you", name)
