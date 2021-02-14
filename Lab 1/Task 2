@@ -1,0 +1,20 @@
+"""
+------------------------------------------------------------------------
+Calculating the user's pay with salary and bonus
+------------------------------------------------------------------------
+Author: Rohan Tewari  
+updated = "2021-02-14"
+------------------------------------------------------------------------
+"""
+
+#The users input 
+print('Hello user, today we will calculate your total pay at your workplace!')
+salary = int(input ('what is your job salary?'))
+bonus  = int(input ('what is the bonus you recive from work?'))
+
+#Calculate the users overall pay
+pay = salary + bonus 
+
+
+#Print the total overall pay of the user
+print('calculating your overall pay',pay)
